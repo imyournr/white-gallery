@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Gallery</title>
+
+    <style>
+        body {
+            background-color: #f1f1f1;
+            font-family: Arial, sans-serif;
+            padding: 10px;
+        }
+        .chart {
+            margin-top: 20px;
+            min-height: 1366px;
+            display: flex;
+            justify-content: space-around;
+            row-gap: 20px;
+            column-gap: 0px;
+            flex-wrap: wrap;
+            align-content: center;    
+        }
+
+        .flexbox {
+            height: 300px;
+            justify-content: space-around;
+            background-color: white;
+            padding: 27px;            
+        }
+        
+        .flexbox:hover {
+            border: 3px solid hsla(27, 35%, 22%, 0.5);
+        }
+     
+        img {
+            height: 200px;
+            width: 300px;
+            padding-bottom: 0px;
+        }
+        h2.long1 {
+            align-content: end;
+            /*border: 2px solid black; */
+            width: 300px;
+            height: 80px;
+            margin-bottom: 15px;
+            margin-top: 0px;
+        }
+        h2.long {
+            align-content: end;
+            /*border: 2px solid black; */
+            width: 300px;
+            height: 70px;
+            margin-bottom: 5px;
+            margin-top: 0px;
+        }
+        h2.short {
+            align-content: end;
+            /*border: 2px solid black; */
+            width: 300px;
+            height: 50px;
+            margin-bottom: 5px;
+            margin-top: 0px;
+        }
+        div.header {
+            text-align: center;
+            background-color: white;
+            width: auto;
+            padding: 20px;
+        }
+        h1 {
+            width: 50%;
+            margin-left: 25%;
+            text-align: center;
+            font-size: 45px;
+
+
+        }
+        p {
+            margin: 20px;
+
+        }
+        footer {
+            text-align: center;
+            background-color: white;
+            width: auto;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .name {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 32px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+            <!--มาทำflexbox-->
+
+    <div class="header">
+       <h1>White Gallery</h1>
+    <p>This website is a part of self-improvment project, 
+        This project is a part of Fundamental Academic Listening and Speaking Subject ED291009, 
+        The purpose of this project is to create a photo gallery website within 2 weeks 
+        by using HTML (Hyper Text Markup Language) and CSS (Cascading Style Sheets).</p> 
+    </div>
+    
+    <div class="chart">
+        <div class="flexbox flexbox1">
+            <h2 class="long1">222<sup>nd</sup> Anniversary <span style="font-size: 22px;">Celebration of Khon Kaen</span>.</h2>
+            <a href="./222KhonKaen_Page.html" > <img src="./222nd_kk_photos/IMG_7582.jpg" alt="222kk_pic"></a>
+        </div>
+
+        <div class="flexbox flexbox1">
+            <h2 class="long">Khonkaenwittayayon <br/>Sport Days</h2>
+            <a href="./kkw_sportday_page.html"> <img src="./kkw_sport day/kkwsd.jpg"></a>
+        </div>
+
+        <div class="flexbox flexbox2">
+            <h2 class="short">Science Week</h2>
+            <a href="./Sci_week.html"> <img src="./Sci_week/จริงๆแล้วเขาคือคณะบดี.jpg"></a>
+        </div>
+
+        <div class="flexbox flexbox2">
+            <h2 class="short">TESOL20 Orientation day</h2>
+            <a href="./Sci_week.html"> <img src="./TESOL_orientation/TESOL_20.png"></a>
+        </div>
+
+
+        <div class="flexbox flexbox2">
+            <h2 class="short">Favorites</h2>
+            <a href="./favorites.html"> <img src="./favorites/437F828B-E8B7-4D05-B357-0069309ABCD8.jpg"></a>
+        </div>
+    </div>
+
+    <div>
+        <footer>
+            <p class="name">Imyournr_</p>
+            <p>Hi! I'm Nicharee Promjitr. <br/>
+            I'm currently studying in TESOL Program at Khon Kaen University. 
+            I made this website to gather some memorable photos that I've taken.</p>
+        </footer>
+    </div>
+        
+</body>
+</html>
